@@ -9,6 +9,11 @@
     padding: 17px 24px;
     border-radius: 5px;
 }
+.layer-btn{
+    background-color: #FFFFFF;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
 .section-title{
     font-size: 35px;
     font-weight: bold;
@@ -54,5 +59,102 @@ nav ul li{
     margin: 32px 45px;
 }
 
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 75px;
+}
+/* development-section */
+.development{
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    text-align: center;
+}
+.inner-development{
+    padding: 10px;
+    max-width: 852px;
+    margin: 80px 144px;
+    padding-bottom: 80px;
+    /* padding-top: 40px; */  
+}
+
+/* .dev-intro{
+    background-color: #FFFFFF;
+} */
+
+.dev-layer{
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    margin-top: 98px;
+}
+.layer1-info{
+    width: 50%;
+}
+
+/* inspiration */
+.inspiration{
+    text-align: center;
+}
+.inner-intro{
+    padding: 10px;
+    max-width: 852px;
+    margin: 80px 144px;
+}
+.video-box iframe{
+border-radius: 16px;
+}
 
 
+/* target */
+.target{
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+/* skill section */
+.skills-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 35px;
+}
+.box-bg1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.box-bg2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.box-bg3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.skill{
+    text-align: left;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+/* support-banner */
+.support-banner{
+    background: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: 1140px auto;
+    border-radius: 16px;
+    
+}
+
+/* support section */
+
+.feedback-form input[type="text"]{
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    width: 70%;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    border: none;
+
+}
